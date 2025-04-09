@@ -1,0 +1,39 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "基本设置",
+                "data": {
+                    "name": "设备名称",
+                    "device_type": "设备类型（Windows/Linux/其他设备）"
+                }
+            },
+            "network": {
+                "title": "网络配置",
+                "data": {
+                    "ip": "IP地址",
+                    "mac": "MAC地址"
+                }
+            },
+            "options": {
+                "title": "设备特定配置",
+                "data": {
+                    "port": "端口号",
+                    "ssh_key": "SSH密钥文件",
+                    "poweron_command": "开机命令",
+                    "shutdown_command": "关机命令"
+                }
+            }
+        },
+        "error": {
+            "ip_required": "请输入IP地址",
+            "name_required": "请输入设备名称",
+            "mac_required": "请输入MAC地址",
+            "ssh_key_required": "Linux物理机需要SSH密钥",
+            "poweron_cmd_required": "请输入开机命令",
+            "shutdown_cmd_required": "请输入关机命令",
+            "invalid_ssh_key": "SSH密钥格式不正确，请确保包含完整的BEGIN和END标记",
+            "ssh_key_failed": "SSH密钥文件复制失败"
+        }
+    }
+}

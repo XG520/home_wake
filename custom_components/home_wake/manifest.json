@@ -1,0 +1,17 @@
+{
+    "domain": "home_wake",
+    "name": "离线唤醒_XG",
+    "version": "1.0.0",
+    "documentation": "https://github.com/custom_components/wake_on_lan",
+    "dependencies": [],
+    "requirements": [
+        "wakeonlan>=2.0.0",
+        "asyncssh>=2.12.0",
+        "aiohttp>=3.8.0",
+        "aiofiles>=23.2.1"
+    ],
+    "codeowners": ["@XG520"],
+    "config_flow": true,
+    "iot_class": "local_push"
+}
+
